@@ -1,0 +1,72 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@kurkle/color": "^0.3.4",
+    "@tailwindcss/typography": "^0.5.16",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "ajv": "^8.17.1",
+    "chart.js": "^4.4.7",
+    "emailjs-com": "^3.2.0",
+    "framer-motion": "^11.17.0",
+    "mdast-util-to-hast": "^13.2.0",
+    "npm-force-resolutions": "^0.0.10",
+    "react": "^19.0.0",
+    "react-activity-calendar": "^2.7.7",
+    "react-chartjs-2": "^5.3.0",
+    "react-dom": "^19.0.0",
+    "react-github-calendar": "^4.5.4",
+    "react-icons": "^5.4.0",
+    "react-lottie-player": "^2.1.0",
+    "react-markdown": "^9.0.3",
+    "react-router-dom": "^7.1.1",
+    "react-scripts": "5.0.1",
+    "react-typed": "^2.0.12",
+    "rehype-raw": "^7.0.0",
+    "rehype-stringify": "^10.0.1",
+    "remark": "^15.0.1",
+    "remark-gfm": "^4.0.0",
+    "remark-rehype": "^11.1.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "resolutions": {
+    "date-fns": "^2.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "tailwind.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
