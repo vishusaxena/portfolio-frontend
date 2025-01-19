@@ -1,5 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { Link } from "react-router-dom"; // Import useLocation
 
 const Footer = () => {
   return (
@@ -73,12 +74,12 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a
-                href="#blog"
+              <Link
+                to="/blog"
                 className="hover:text-white transition"
               >
                 Blog
-              </a>
+              </Link>
             </li>
             <li>
               <a

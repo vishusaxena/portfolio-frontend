@@ -42,10 +42,10 @@ const Contact = () => {
           
           <div className="flex flex-col items-center space-y-6">
             {[
-              { icon: FaLinkedin, link: "https://linkedin.com" },
-              { icon: FaGithub, link: "https://github.com" },
-              { icon: FaEnvelope, link: "mailto:your_email@example.com" },
-              { icon: FaInstagram, link: "https://instagram.com" },
+              { icon: FaLinkedin, link: "https://linkedin.com/vishusaxena" },
+              { icon: FaGithub, link: "https://github.com/vishusaxena" },
+              { icon: FaEnvelope, link: "mailto:vishusaxena3105@gmail.com" },
+              { icon: FaInstagram, link: "https://instagram.com/ichvishu" },
             ].map(({ icon: Icon, link }, index) => (
               <a
                 key={index}
