@@ -11,7 +11,7 @@
     "ajv": "^8.17.1",
     "chart.js": "^4.4.7",
     "emailjs-com": "^3.2.0",
-    "framer-motion": "^11.17.0",
+    "framer-motion": "^11.18.1",
     "mdast-util-to-hast": "^13.2.0",
     "npm-force-resolutions": "^0.0.10",
     "react": "^18.2.0",
@@ -22,7 +22,7 @@
     "react-icons": "^5.4.0",
     "react-lottie-player": "^2.1.0",
     "react-markdown": "^9.0.3",
-    "react-router-dom": "^7.1.1",
+    "react-router-dom": "^6.14.2",
     "react-scripts": "5.0.1",
     "react-typed": "^2.0.12",
     "rehype-raw": "^7.0.0",
@@ -45,8 +45,9 @@
     ]
   },
   "resolutions": {
-    "date-fns": "^2.0.0"
+    "react": "18.2.0"
   },
+ 
   "browserslist": {
     "production": [
       ">0.2%",
